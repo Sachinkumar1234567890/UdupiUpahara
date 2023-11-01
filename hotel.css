@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*{
+    margin: 0;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-image:url(backgroud-head.webp) ;
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    margin-left: 10px;
+    height: 80px;
+    width: 200px;
+}
+header h1{
+    margin-left: 200px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    background-image: linear-gradient( yellow,red);
+    font-family: 'Luckiest Guy', cursive;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position-y:10px;
+    background-size: cover;
+    font-size: 50px;
+    /* text-shadow: 0px 5px  30px black ;  */
+}
+.main1{
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: 0.96;
+    height: 460vh;
+    /* border: red solid; */
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    opacity: 0.96;
+    height: 410vh;
+    /* border: red solid; */
+}
+.hov h1:hover{
+    color: crimson;
+    transform: scale(1.2);
+    /* animation-duration: 3s; */
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
+.south{
+    /* margin-top: 20px; */
+    padding: 10px;
+    height: 600px;
+    width: 95%;
+    /* border: red solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 30px rgb(159, 177, 171) inset;
+
+}
+.it{
+    /* margin-top: 20px; */
+    padding: 5px;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    animation: slidemain 3s forwards; 
+}
+.it img:hover{
+    animation: slidephoto 3s 1;
+}
+@keyframes slidephoto {
+    0%{
+        transform:scale(.8);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }  
+}
+/* @keyframes slidemain{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }   
+} */
+.south img{
+    height:500px ;
+    width: 280px;
+}
+.north{
+    margin-top: 20px;
+    padding: 10px;
+    height: 600px;
+    width: 95%;
+    /* border: red solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 30px rgb(159, 177, 171) inset;
+}
+.north img{
+    height:500px;
+    width: 280px;
+}
+a{
+    text-decoration: none;
+}
+.chinese{
+    margin-top: 20px;
+    padding: 10px;
+    height: 600px;
+    width: 95%;
+    /* border: red solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 30px rgb(159, 177, 171) inset;
+}
+.chinese img{
+    height:500px;
+    width: 280px;
+}
+.cooldrinks{
+    margin-top: 20px;
+    padding: 10px;
+    height: 600px;
+    width: 95%;
+    /* border: red solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 30px rgb(159, 177, 171) inset;
+}
+.cooldrinks img{
+    height:500px;
+    width: 280px;
+}
+.main1 h1{
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+.main h1{
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Silkscreen', sans-serif;}
+.one{
+    margin-top:50px;
+    height: 480px;
+    width: 98%;
+    /* border: greenyellow solid; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-start;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px green ;
+    /* animation: slide 3s forwards;  */
+}
+.one:hover{
+    animation: slide 3s forwards; 
+
+}
+@keyframes slide {
+    0%{
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }   
+}
+.one img{
+    padding: 10px;
+    height: 300px;
+    width:400px;
+}
+.inner{
+    padding: 10px;
+    height: 400px;
+    width: 780px;
+    text-align: justify;
+    font-family: 'Amita', serif;
+}
+
